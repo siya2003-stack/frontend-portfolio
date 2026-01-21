@@ -1,0 +1,600 @@
+
+p {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 4px;
+}
+.heading {
+    color: #FEA116;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin: 4px;
+}
+h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 4px;
+}
+.fa-solid {
+        color: #FEA116;
+
+}
+
+/* Navbar Section */
+.primary-btn {
+    background-color: black;
+    color: white;
+     padding: 6px 18px; 
+    font-weight: 600;
+    text-transform: capitalize;
+    border-style: none;
+}
+.logo-img {
+    height: 30px;
+}
+.list {
+    display: flex;
+    gap: 40px;
+}
+.list-items a {
+font-weight: 400;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.849);
+    text-transform: capitalize;
+}
+.list-items a:hover {
+    color: #FEA116;
+    border-bottom: 1px solid #FEA116;
+    font-weight: bold;
+}
+.list-items {
+        list-style: none;
+}
+.main-navbar {
+    display: flex;
+     justify-content: space-around; 
+    align-items: center;
+}
+.list-btn {
+    display: flex;
+   
+ justify-content: space-between;
+    align-items: center;
+    
+    gap: 36px;
+
+}
+.nav-btn {
+    align-content: center;
+    align-self: center;
+}
+
+
+.nav-list {
+    margin: 0 auto;
+}
+
+/* Hero-section */
+
+.banner-bg {
+    background-image: url("/public/assets/restro\ bg-hide.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+ .banner-hide {
+  background-color: #000000db;
+  height: 100vh;
+  width: 100%;         
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner-image {
+    position: absolute;
+    bottom: 10%;
+    height: 70%;
+    right: 10%;
+}
+.banner-txt {
+
+    position: absolute;
+    bottom: 32%;
+    color: white;
+    width: 40%;
+    left: 12%;
+}
+.hero-heading {
+    padding: 10px 0px;
+}
+.hero-txt {
+    padding: 0px 0px 10px;
+}
+.secondary-btn {
+    background-color: white;
+    color: black;
+    border-style: none;
+    padding: 6px 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Service Section */
+.service-row {
+    display: grid;
+    gap: 20px;
+      grid-template-columns: repeat(4, 1fr); 
+      padding: 20px;
+      margin: 20px;
+      justify-items: center;
+}
+
+.card {
+ border-radius: 40px 0px !important;
+   overflow: hidden;
+    width: 230px;
+    padding: 15px;
+    background-color: #FFD693;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+    align-items: center;
+}
+.card:hover {
+  background-color: #FFD693;
+}
+
+.card span {
+    margin: 4px 0px;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #FEA116;
+    background-color: white;
+    /* width: 50px; */
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px 17px;
+}
+
+ .service-heading {
+    text-align: center;
+    
+    margin-bottom: 10px;
+}
+.service-section {
+    margin-top: 20px;
+    padding: 20px 0px;
+}
+/*  
+about */
+
+.main-abt{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    margin: 20px 0px;
+
+}
+
+
+.abt-img-group{
+    display: flex;
+    gap: 20px;
+}
+.abt-heading {
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+.abt-img1,
+.abt-img-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.abt-img-group img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about-img1 img,
+.about-img4 img{
+    width: 260px;
+    height: 222px;
+}
+
+.about-img2 img,
+.about-img3 img{
+    width: 220px;
+    height: 200px;
+}
+.about-img2 {
+    text-align: right;
+}
+
+
+.abt-txt{
+    max-width: 520px;
+}
+
+.abt-info{
+    display: flex;
+    gap: 50px;
+    margin: 30px 0;
+}
+
+.abt-info1,
+.abt-info2{
+      border-left: 2px solid black;
+    padding-left: 16px;
+    height: 40px;
+    align-content: center;
+}
+
+.infotxt {
+    font-size: 36px;
+}
+
+.abt-info-txt {
+    display: flex;
+    gap: 20px;
+}
+
+/* MEnu Section */
+.menu-header {
+    margin: 20px 0px;
+    padding: 10px 0px;
+}
+.menu-card {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.menu-card-header {
+    align-items: center;
+}
+.menu-card-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid #8080802e;
+    align-items: center;
+}
+
+.menu-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: center;
+  padding: 10px;
+}
+.main-menu-icn {
+    display: flex;
+  
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.menu-icn a {
+    background-color: beige;
+    border-radius: 50%;
+    padding: 4px 0px;
+}
+
+/* .menu-card-heading span {
+    color: #FEA116;
+} */
+
+.menu-icn {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 14px;
+    background-color: beige;
+}
+.menu-icn:hover {
+    background-color: #000;
+    color: white;
+}
+.menu-icn span {
+    font-size: 14px;
+    font-weight: 300;
+}
+.menu-heading {
+    text-align: center;
+    padding: 16px;
+}
+.menu-card span {
+    font-weight: 500;
+    font-size: 16px;
+}
+.menucard-img img {
+    border-radius: 6px;
+}
+
+/* Reservation Section */
+.main-Reservation {
+  display: flex;
+ gap: 10px;
+  width: 100%;
+  justify-content: center;
+  padding: 30px 0px ;
+
+}
+
+/* ===== Left Video Box ===== */
+.Reservation-vdo-box {
+  width: 50%;
+  position: relative;
+}
+
+.Reservation-vdo-box video {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 4px 0 0 4px;
+}
+
+/* ===== Right Contact Box ===== */
+.Reservation-cntct-box {
+  width: 40%;
+  background: #FFD693;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.main-cntct {
+  width: 100%;
+}
+.Reservation-vdo-box {
+
+    width: 40%;
+}
+
+
+
+/* ===== Input Rows ===== */
+
+.cntct1 {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+}
+.cntct2 {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+}
+/* ===== Inputs ===== */
+.cntct1 input  {
+  
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+display: flex;
+gap: 20px;
+width: 100%;
+}
+.cntct2 input {
+    padding: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+display: flex;
+gap: 20px;
+width: 100%;
+}
+
+.reservation-heading {
+    padding: 10px 0px;
+}
+
+/* Testimonial Section */
+.testimonial-row {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap:50px;
+}
+.test-card img {
+    border-radius: 50%;
+    width: 160px;
+}
+.test-card-footer {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #FEA116;
+    color: white;
+    height: 25px;
+    place-content: center;
+    padding: 8px;
+
+    
+}
+.test-card-footer:hover {
+background-color: white;
+color: #FEA116;
+}
+.test-card-footer span:hover {
+    background-color: #FEA116;
+    padding: 2px 4px;
+    color: white;
+}
+.test-card-footer span {
+   align-self: center;
+   padding: 10px 6px;
+}
+.test-card {
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ padding: 20px;
+ text-align: center;
+}
+.test-card:hover {
+    background-color: #FFD693;
+}
+.testimonial-heading {
+    text-align: center;
+    margin: 20px 0px;
+    padding: 10px 0px;
+}
+.main-testimonial {
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+.test-card-header h4 {
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+/* Footer section */
+
+.footer-bg {
+    background-color: #f9efef;
+height: 40vh;
+    width: 96vw;
+    margin: 20px;
+    transform: translate(0px, 34px);
+     display: flex;
+     padding: 8px 0px;
+     position: absolute;
+     bottom: 11%;
+     gap: 20px;
+}
+.main-footer {
+    background-color:#f9efef;
+    height: 50vh;
+    position: relative;
+}
+img.logo {
+    height: 50px;
+}
+
+.footer-newsletter {
+    width: 20%;
+   padding: 10px;
+}
+/* .footer-opening {
+    width: 20%;
+   padding: 10px;
+} */
+.footer-contact {
+    width: 20%;
+   padding: 10px;
+}
+.footer-cmpny {
+    width: 20%;
+ padding: 10px;
+}
+.footer-logo {
+    padding: 10px;
+    width: 30%;
+}
+.list-item {
+    list-style: none;
+    padding: 4px 0px;
+}
+.list-item a{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.list-item a:hover {
+    border-bottom: 1px solid #FEA116;
+    font-weight: bold;
+    color: #FEA116;
+    text-transform: capitalize;
+}
+.logo-cntct {
+    list-style: none;
+}
+.logo-cntct a {
+    text-decoration: none;
+    color: black;
+}
+.logo-mail {
+    list-style: none;
+}
+.logo-mail a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.cnct-logo {
+    margin-top: 8px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.cmpny-list {
+    padding: 10px 0px;
+}
+
+.contact-list {
+    padding: 10px 0px;
+}
+
+.main-opening {
+    padding: 10px 0px;
+}
+
+.main-newsletter {
+    padding: 10px 0px;
+    position: relative;
+}
+
+
+.cnct-logo h4 {
+    margin:  5px;
+
+}
+.main-opening span {
+    padding: 10px 0px;
+}
+button.footer-btn- {
+    position: absolute;
+    right: 5%;
+    background-color: #FEA116;
+    color: black;
+    border-style: none;
+    padding: 6px 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    bottom: 23%;
+}
+.inputtype {
+    padding: 10px 28px;
+        border-color: #80808026;
+}
+.logo-img-footer p {
+    font-size: 12px;
+}
+
+.fa-brands {
+    color: #FEA116;
+    font-size: 20px;
+    
+}
+.footer-icn a {
+    background-color: white;
+    border-radius: 50%;
+    padding: 4px;
+}
+.footer-icn {
+    padding: 20px 4px;
+    display: flex;
+    gap: 16px;
+}
